@@ -14,7 +14,12 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
-
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
 h1, h2{
     font-family: 'Princess Sofia', cursive;
     color: #e5904d;
@@ -22,8 +27,8 @@ h1, h2{
 }
 
 .section-padding {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 
@@ -56,4 +61,3 @@ footer{
     background-color: #414046;
     color: white;
 }
-
