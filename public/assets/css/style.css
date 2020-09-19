@@ -1,0 +1,95 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Princess Sofia', cursive; */
+
+*, *:before, *:after {
+    margin: 0;
+    border: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Princess Sofia', cursive;
+    color: #e5904d;
+    text-shadow: 1px 1px black;
+}
+
+.section-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#s1_header{
+    background-color: #1e1109;
+}
+#s2_trio{
+    background-color: #fefaf7;
+}
+#s3_painting_of_the_week{
+    background-color: #26221f;
+}
+#s4_about{
+    background-color: #f0e9d7;
+}
+#s5_prints{
+    background-color: #fefaf7;
+}
+#s6_paintings{
+    background-color: #414046;
+}
+#s7_drawings{
+    background-color: #f0e9d7;
+}
+#s8_contact{
+    background-color: #fefaf7;
+}
+
+footer{
+    background-color: #414046;
+    color: white;
+}
+
+
+/************** s1_header *********************/ 
+#s1_header{
+    height: 100vh;
+    background: url('./../img/interface-imgs/s1-header-lg-center.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/************** s1_header *********************/ 
+
+/************** s2_trio *********************/
+/************** s2_trio *********************/
+
+/************** s3_painting_of_the_week *********************/
+/************** s3_painting_of_the_week *********************/
+
+/************** s4_about *********************/
+/************** s4_about *********************/
+
+/************** s5_prints *********************/
+/************** s5_prints *********************/
+
+/************** s6_paintings *********************/
+/************** s6_paintings *********************/
+
+/************** s7_drawings *********************/
+/************** s7_drawings *********************/
+
+/************** s8_contact *********************/
+/************** s8_contact *********************/
+
+/************** s9_footer *********************/
+/************** s9_footer *********************/
+
+/************** s10_copyright *********************/
+/************** s10_copyright *********************/
