@@ -1,0 +1,33 @@
+/************** s1_header *********************/ 
+#s1_header{
+    height: 100vh;
+    background: url('./../img/interface-imgs/s1-header-lg-center.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s1_header .container{
+    display: grid; /* Another way to do things is to use flex box but we use grid system to get more familiar with grid system*/
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100%;
+}
+#s1_header .container header{
+    text-align: center;
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+
+#s1_header .container header h1{
+    font-size: 3.5rem;
+}
+#s1_header .container header p{
+    font-size: 1.5;
+}
+
+@media (max-width: 992px){
+    #s1_header .container header h1{
+        font-size: 2.5rem;
+    }
+}
+/************** s1_header *********************/ 
