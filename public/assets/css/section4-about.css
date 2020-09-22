@@ -17,6 +17,8 @@
 .about-body{
     grid-area: about-body;
     text-align: center;
+}
+.about-body p {
     line-height: 2;
 }
 

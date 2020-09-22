@@ -30,7 +30,9 @@ h1, h2{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
+.section-heading{
+    margin-bottom: 1.8rem;
+}
 
 #s1_header{
     background-color: #1e1109;
