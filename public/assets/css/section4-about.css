@@ -1,0 +1,50 @@
+/************** s4_about *********************/
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    grid-template-areas: 
+        'about-img about-img about-img'
+        'about-body about-body about-body'
+    ;
+}
+
+.about-img{
+    grid-area: about-img;
+    grid-column: 2 / 3;
+}
+.about-body{
+    grid-area: about-body;
+    text-align: center;
+    line-height: 2;
+}
+
+@media (min-width: 768px){
+    .about-grid{
+        grid-template-areas: 
+            'about-img about-body about-body'
+            'about-img about-body about-body'
+        ;
+    }
+    .about-img{
+        grid-column: 1 / 2;
+    }
+    .about-body{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+}
+@media (min-width: 992px){
+    .about-grid{
+        grid-template-areas: 
+            'about-body about-body about-img '
+            'about-body about-body about-img '
+        ;
+    }
+    .about-img{
+        grid-column: 3 / 4;
+    }
+}
+/************** s4_about *********************/
