@@ -1,0 +1,59 @@
+/************** s8_contact *********************/
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+    grid-template:
+        "contact-header contact-map contact-map"
+        "contact-img contact-map contact-map"
+    ;
+}
+
+@media (max-width: 768px){
+    .contact-grid{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-template:
+            "contact-img contact-header"
+            "contact-map contact-map"
+            "contact-map contact-map"
+        ;
+    }
+    .contact-img{
+        justify-self: end;
+    }
+}
+@media (max-width: 576px){
+    .contact-grid{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
+        grid-template: 
+        "contact-img"
+        "contact-header"
+        "contact-map"
+        "contact-map"
+        ;
+    }
+    .contact-img{
+        transform: scaleX(-1);
+        justify-self: center;
+    }
+    .contact-header{
+        text-align: center;
+    }
+}
+
+.contact-header{
+    grid-area: contact-header;
+}
+.contact-map{
+    grid-area: contact-map;
+}
+.contact-map iframe{
+    width: 100%;
+}
+.contact-img{
+    grid-area: contact-img;
+}
+/************** s8_contact *********************/
