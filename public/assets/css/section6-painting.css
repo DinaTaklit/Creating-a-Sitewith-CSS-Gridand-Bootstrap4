@@ -17,6 +17,7 @@
     border: 2px solid white;
     outline: none;
 }
+
 #s6_paintings .paintings-wrapper{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
@@ -26,6 +27,13 @@
     align-self: end;
     justify-self: end;
 }
+@media (max-width:992px){
+    #s6_paintings .paintings-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
 .painting-1{
     background-image: url("./../img/paintings-img/1920px-P1150002_Cognacq-Jay_Rembrandt_anesse_de_Balaam_rwk.jpg");
     background-size: cover;
