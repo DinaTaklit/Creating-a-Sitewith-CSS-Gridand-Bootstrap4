@@ -7,6 +7,10 @@ footer h2 {
     font-size: 1.4rem;
     margin-bottom: .6rem;
 }
+footer .btn-toolbar i {
+    margin: 0;
+    padding: .3rem 0;
+}
 
 .footer-grid{
     display: grid;
