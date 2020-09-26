@@ -1,4 +1,5 @@
 @import 'common.css';
+@import url('navbar.css');
 @import url('header.css');
 @import url('section2-cards.css');
 @import url('section6-painting.css');
